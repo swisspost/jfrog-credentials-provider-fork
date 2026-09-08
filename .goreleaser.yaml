@@ -50,7 +50,7 @@ signs:
 dockers_v2:
   - dockerfile: Dockerfile.goreleaser
     images:
-      - to-be-defined.example.com/jfrog-credential-provider
+      - ghcr.io/swisspost/jfrog-credentials-provider-fork
     tags:
       - "{{ .Version }}"
       # - latest
